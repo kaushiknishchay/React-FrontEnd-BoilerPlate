@@ -8,7 +8,11 @@
     "react-scripts": "1.1.1"
   },
   "jest": {
-    "collectCoverageFrom": ["src/**/*.{js,jsx}","!src/**/registerServiceWorker.js","!src/**/index.jsx"]
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/**/registerServiceWorker.js",
+      "!src/**/index.jsx"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,11 +21,14 @@
     "test:coverage": "react-scripts test --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "eject": "react-scripts eject",
     "lint": "(eslint --ext=js --ext=jsx . ) && echo Lint Passed! ALL Clear! ❤",
-    "precommit": "yarn lint"
+    "precommit": "yarn lint",
+    "git": "git-cz"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
+    "commitizen": "^2.9.6",
     "coveralls": "^3.0.0",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
@@ -30,5 +37,10 @@
   },
   "eslintIgnore": [
     "registerServiceWorker.js"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
