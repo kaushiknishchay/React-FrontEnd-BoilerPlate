@@ -8,6 +8,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 [![Coverage Status](https://coveralls.io/repos/github/kaushiknishchay/React-FrontEnd-BoilerPlate/badge.svg?branch=master)](https://coveralls.io/github/kaushiknishchay/React-FrontEnd-BoilerPlate?branch=master)
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+
 [![Build Status](https://travis-ci.org/kaushiknishchay/React-FrontEnd-BoilerPlate.svg?branch=master)](https://travis-ci.org/kaushiknishchay/React-FrontEnd-BoilerPlate)
 
 ## Table of Contents
