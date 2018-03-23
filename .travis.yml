@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - 9.4.0
 script:
-  - yarn lint && yarn test
+  - yarn lint && yarn test:coverage
