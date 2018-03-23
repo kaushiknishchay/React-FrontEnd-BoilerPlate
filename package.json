@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "lint": "(eslint --ext=js --ext=jsx . ) && echo Lint Passed! ALL Clear! ❤",
     "precommit": "yarn lint",
-    "git": "git-cz"
+    "git": "git add . && git cz"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
